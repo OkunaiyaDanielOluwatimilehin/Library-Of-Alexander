@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Open Sans", Georgia, serif;
+  --font-cinzel: "Oswald", sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Oswald", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Custom Color Palette */
+  --color-dusk-blue: #1b5299;
+  --color-strong-cyan: #4ecdc4;
+  --color-deep-purple: #4f0147;
+  --color-yellow: #fffc31;
+  --color-blaze-orange: #f75c03;
+
+  /* Turf Green Palette (Fallback / Accent compat) */
+  --color-turf-green-50: #edf7f3;
+  --color-turf-green-100: #dcefe7;
+  --color-turf-green-200: #b8e0cf;
+  --color-turf-green-300: #95d0b6;
+  --color-turf-green-400: #71c19e;
+  --color-turf-green-500: #4eb186;
+  --color-turf-green-600: #3e8e6b;
+  --color-turf-green-700: #2f6a50;
+  --color-turf-green-800: #1f4736;
+  --color-turf-green-900: #10231b;
+  --color-turf-green-950: #0b1913;
+
+  /* Parchment Palette */
+  --color-parchment-50: #f6f0ef;
+  --color-parchment-100: #ede2de;
+  --color-parchment-200: #dbc5bd;
+  --color-parchment-300: #c9a79c;
+  --color-parchment-400: #b78a7b;
+  --color-parchment-500: #a46d5b;
+  --color-parchment-600: #845748;
+  --color-parchment-700: #634136;
+  --color-parchment-800: #422c24;
+  --color-parchment-900: #211612;
+  --color-parchment-950: #170f0d;
+
+  /* Orange Palette */
+  --color-orange-50: #fef6e7;
+  --color-orange-100: #fcedcf;
+  --color-orange-200: #fadb9e;
+  --color-orange-300: #f7c96e;
+  --color-orange-400: #f5b83d;
+  --color-orange-500: #f2a60d;
+
+  /* Soft Blush */
+  --color-soft-blush-500: #ff0008;
+
+  /* Twilight Indigo */
+  --color-twilight-indigo-500: #4f62b0;
+
+  /* Scarlet Rush */
+  --color-scarlet-rush-500: #da2534;
+}
+
+.font-cinzel {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-display {
+  font-family: 'Oswald', sans-serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
