@@ -1,4 +1,4 @@
-import { getAvailableContentTypes } from "./contentTypes.ts";
+import { getAvailableContentTypes } from "./contentTypes.js";
 
 export async function fetchFromContentful(contentType: string) {
   const spaceId = process.env.CONTENTFUL_SPACE_ID || process.env.VITE_CONTENTFUL_SPACE_ID;

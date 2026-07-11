@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getCharacters } from "../services/books.service.ts";
+import { getCharacters } from "../services/books.service.js";
 
 const router = Router();
 

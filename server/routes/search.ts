@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { searchCMS } from "../services/search.service.ts";
+import { searchCMS } from "../services/search.service.js";
 
 const router = Router();
 

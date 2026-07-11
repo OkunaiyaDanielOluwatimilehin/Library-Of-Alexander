@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getOriginalBooks } from "../services/books.service.ts";
+import { getOriginalBooks } from "../services/books.service.js";
 
 const router = Router();
 

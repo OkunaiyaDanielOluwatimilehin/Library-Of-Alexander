@@ -1,15 +1,15 @@
 import { Router } from "express";
-import cmsRouter from "./cms.ts";
-import booksRouter from "./books.ts";
-import authorsRouter from "./authors.ts";
-import reviewsRouter from "./reviews.ts";
-import homepageRouter from "./homepage.ts";
-import rankingsRouter from "./rankings.ts";
-import originalBooksRouter from "./original-books.ts";
-import searchRouter from "./search.ts";
-import genresRouter from "./genres.ts";
-import collectionsRouter from "./collections.ts";
-import healthRouter from "./health.ts";
+import cmsRouter from "./cms.js";
+import booksRouter from "./books.js";
+import authorsRouter from "./authors.js";
+import reviewsRouter from "./reviews.js";
+import homepageRouter from "./homepage.js";
+import rankingsRouter from "./rankings.js";
+import originalBooksRouter from "./original-books.js";
+import searchRouter from "./search.js";
+import genresRouter from "./genres.js";
+import collectionsRouter from "./collections.js";
+import healthRouter from "./health.js";
 
 const router = Router();
 

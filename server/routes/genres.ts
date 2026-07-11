@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getCategories } from "../services/books.service.ts";
+import { getCategories } from "../services/books.service.js";
 
 const router = Router();
 

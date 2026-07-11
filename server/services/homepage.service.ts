@@ -1,4 +1,4 @@
-import { fetchFromContentful } from "../lib/fetchContentful.ts";
+import { fetchFromContentful } from "../lib/fetchContentful.js";
 
 export async function getHomepageConfig() {
   const data = await fetchFromContentful("homepageConfig");

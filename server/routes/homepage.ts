@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getHomepageConfig, getFooterConfig } from "../services/homepage.service.ts";
+import { getHomepageConfig, getFooterConfig } from "../services/homepage.service.js";
 
 const router = Router();
 

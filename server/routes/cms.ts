@@ -1,7 +1,7 @@
 import { Router } from "express";
 import fs from "fs";
 import path from "path";
-import { fetchFromContentful } from "../lib/fetchContentful.ts";
+import { fetchFromContentful } from "../lib/fetchContentful.js";
 
 const router = Router();
 

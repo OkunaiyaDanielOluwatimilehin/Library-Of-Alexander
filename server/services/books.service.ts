@@ -1,5 +1,5 @@
-import { fetchFromContentful } from "../lib/fetchContentful.ts";
-import { resolveCoverUrl } from "../lib/imageResolver.ts";
+import { fetchFromContentful } from "../lib/fetchContentful.js";
+import { resolveCoverUrl } from "../lib/imageResolver.js";
 
 export async function getCategories() {
   let categoriesData: any = { items: [], includes: {} };

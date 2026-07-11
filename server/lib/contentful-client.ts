@@ -1,4 +1,4 @@
-import { fetchFromContentful } from "./fetchContentful.ts";
+import { fetchFromContentful } from "./fetchContentful.js";
 
 export const contentfulClient = {
   fetch: fetchFromContentful

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getAuthorSpotlight, getAuthors } from "../services/authors.service.ts";
+import { getAuthorSpotlight, getAuthors } from "../services/authors.service.js";
 
 const router = Router();
 

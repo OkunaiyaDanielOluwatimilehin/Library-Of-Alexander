@@ -1,6 +1,6 @@
-import { fetchFromContentful } from "../lib/fetchContentful.ts";
-import { resolveCoverUrl } from "../lib/imageResolver.ts";
-import { normalizeQuotes } from "../lib/quoteNormalizer.ts";
+import { fetchFromContentful } from "../lib/fetchContentful.js";
+import { resolveCoverUrl } from "../lib/imageResolver.js";
+import { normalizeQuotes } from "../lib/quoteNormalizer.js";
 
 export async function getReviews() {
   let reviewsData: any = { items: [], includes: {} };

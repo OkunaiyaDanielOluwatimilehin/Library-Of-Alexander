@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getRankings } from "../services/rankings.service.ts";
+import { getRankings } from "../services/rankings.service.js";
 
 const router = Router();
 
