@@ -1,9 +1,9 @@
 import { getAvailableContentTypes } from "./contentTypes.js";
 
 export async function fetchFromContentful(contentType: string) {
-  const spaceId = process.env.CONTENTFUL_SPACE_ID || process.env.VITE_CONTENTFUL_SPACE_ID;
-  const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN || process.env.VITE_CONTENTFUL_ACCESS_TOKEN;
-  const envId = process.env.CONTENTFUL_ENVIRONMENT || process.env.VITE_CONTENTFUL_ENVIRONMENT || "master";
+  const spaceId = process.env.CONTENTFUL_SPACE_ID;
+  const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
+  const envId = process.env.CONTENTFUL_ENVIRONMENT || "master";
 
   if (!spaceId || !accessToken) {
     throw new Error("Contentful credentials are not configured in system settings.");

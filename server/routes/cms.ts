@@ -6,9 +6,9 @@ import { fetchFromContentful } from "../lib/fetchContentful.js";
 const router = Router();
 
 router.get("/cms/status", (req, res) => {
-  const spaceId = process.env.CONTENTFUL_SPACE_ID || process.env.VITE_CONTENTFUL_SPACE_ID;
-  const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN || process.env.VITE_CONTENTFUL_ACCESS_TOKEN;
-  const envId = process.env.CONTENTFUL_ENVIRONMENT || process.env.VITE_CONTENTFUL_ENVIRONMENT || "master";
+  const spaceId = process.env.CONTENTFUL_SPACE_ID;
+  const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
+  const envId = process.env.CONTENTFUL_ENVIRONMENT || "master";
 
   res.json({
     configured: !!(spaceId && accessToken),

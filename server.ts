@@ -2,8 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
-import { app } from "./server/server";
-
+import "dotenv/config";
+import { app } from "./server/server.js";
 export { app };
 export default app;
