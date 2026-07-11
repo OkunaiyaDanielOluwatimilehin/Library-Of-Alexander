@@ -1,0 +1,6 @@
+{
+  "name": "Library of Alexander",
+  "description": "An elegant and modern platform for exploring book reviews, sharing reactions, engaging in literary discussions, and discovering your next masterpiece with curated recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
